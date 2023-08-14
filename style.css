@@ -1,0 +1,15 @@
+/* Stilovi za map kontejner */
+.map-container {
+    width: 100%;
+    height: calc(100vh - 50px); /* Visina ekrana - visina zaglavlja (npr. 50px) */
+    position: relative;
+    overflow: hidden;
+    
+}
+
+/* Stil za mapu */
+#map {
+    width: 100%;
+    height: 100%;
+    
+}
