@@ -43,7 +43,7 @@
         "created_time": 1691757599,
         "modified_time": 1691757599,
         "map_id": "6736bbff-19d5-469b-81f6-c508d110744c",
-        "num_clients": 7,
+        "num_clients": 0,
         "clients_wait": {
             "max": 0,
             "min": 0,
@@ -123,7 +123,7 @@
         "created_time": 1691757599,
         "modified_time": 1691757599,
         "map_id": "6736bbff-19d5-469b-81f6-c508d110744c",
-        "num_clients": 7,
+        "num_clients": 0,
         "clients_wait": {
             "max": 0,
             "min": 0,
@@ -203,7 +203,7 @@
         "created_time": 1691757599,
         "modified_time": 1691757599,
         "map_id": "6736bbff-19d5-469b-81f6-c508d110744c",
-        "num_clients": 5,
+        "num_clients": 0,
         "clients_wait": {
             "max": 0,
             "min": 0,
@@ -283,87 +283,7 @@
         "created_time": 1691757599,
         "modified_time": 1691757599,
         "map_id": "6736bbff-19d5-469b-81f6-c508d110744c",
-        "num_clients": 9,
-        "clients_wait": {
-            "max": 0,
-            "min": 0,
-            "avg": 0,
-            "p95": 0
-        },
-        "num_sdkclients": 0,
-        "sdkclients_wait": {
-            "max": 0,
-            "min": 0,
-            "avg": 0,
-            "p95": 0
-        },
-        "num_assets": 0,
-        "assets_wait": {
-            "max": 0,
-            "min": 0,
-            "avg": 0,
-            "p95": 0
-        },
-        "num_unconnected_clients": 0,
-        "unconnected_clients_wait": {
-            "max": 0,
-            "min": 0,
-            "avg": 0,
-            "p95": 0
-        },
-        "num_discovered_assets": 0,
-        "discovered_assets_wait": {
-            "max": 0,
-            "min": 0,
-            "avg": 0,
-            "p95": 0
-        }
-    },
-    {
-        "name": "Zara",
-        "vertices": [
-            {
-                "x": 489.7060752634424,
-                "y": 98.43003236919463
-            },
-            {
-                "x": 489.7060752634424,
-                "y": 74.2113562332077
-            },
-            {
-                "x": 525.2564255547994,
-                "y": 74.2113562332077
-            },
-            {
-                "x": 514.1469410887503,
-                "y": 98.43003236919463
-            }
-        ],
-        "vertices_m": [
-            {
-                "x": 89.46846954072065,
-                "y": 17.98300000296699
-            },
-            {
-                "x": 89.46846954072065,
-                "y": 13.558288941288883
-            },
-            {
-                "x": 95.96345825511054,
-                "y": 13.558288941288883
-            },
-            {
-                "x": 93.93377428186368,
-                "y": 17.98300000296699
-            }
-        ],
-        "id": "8626e575-b123-4384-9cb4-3d18444ed054",
-        "site_id": "59a01d56-0cf4-4f44-b935-a9ba0acdc97d",
-        "org_id": "d0a6118c-ad8a-4b37-a89b-000e7db4fc60",
-        "created_time": 1691757599,
-        "modified_time": 1691757599,
-        "map_id": "6736bbff-19d5-469b-81f6-c508d110744c",
-        "num_clients": 5,
+        "num_clients": 0,
         "clients_wait": {
             "max": 0,
             "min": 0,
@@ -451,7 +371,7 @@
         "created_time": 1691757599,
         "modified_time": 1691757599,
         "map_id": "6736bbff-19d5-469b-81f6-c508d110744c",
-        "num_clients": 11,
+        "num_clients": 0,
         "clients_wait": {
             "max": 0,
             "min": 0,
@@ -531,7 +451,7 @@
         "created_time": 1691758913,
         "modified_time": 1691758913,
         "map_id": "6736bbff-19d5-469b-81f6-c508d110744c",
-        "num_clients": 12,
+        "num_clients": 0,
         "clients_wait": {
             "max": 0,
             "min": 0,
@@ -611,7 +531,7 @@
         "created_time": 1691758913,
         "modified_time": 1691758913,
         "map_id": "6736bbff-19d5-469b-81f6-c508d110744c",
-        "num_clients": 7,
+        "num_clients": 0,
         "clients_wait": {
             "max": 0,
             "min": 0,
@@ -691,7 +611,7 @@
         "created_time": 1691758913,
         "modified_time": 1691758913,
         "map_id": "6736bbff-19d5-469b-81f6-c508d110744c",
-        "num_clients": 9,
+        "num_clients": 0,
         "clients_wait": {
             "max": 0,
             "min": 0,
@@ -779,7 +699,87 @@
         "created_time": 1691758913,
         "modified_time": 1691758913,
         "map_id": "6736bbff-19d5-469b-81f6-c508d110744c",
-        "num_clients": 6,
+        "num_clients": 0,
+        "clients_wait": {
+            "max": 0,
+            "min": 0,
+            "avg": 0,
+            "p95": 0
+        },
+        "num_sdkclients": 0,
+        "sdkclients_wait": {
+            "max": 0,
+            "min": 0,
+            "avg": 0,
+            "p95": 0
+        },
+        "num_assets": 0,
+        "assets_wait": {
+            "max": 0,
+            "min": 0,
+            "avg": 0,
+            "p95": 0
+        },
+        "num_unconnected_clients": 0,
+        "unconnected_clients_wait": {
+            "max": 0,
+            "min": 0,
+            "avg": 0,
+            "p95": 0
+        },
+        "num_discovered_assets": 0,
+        "discovered_assets_wait": {
+            "max": 0,
+            "min": 0,
+            "avg": 0,
+            "p95": 0
+        }
+    },
+    {
+        "name": "Cinema",
+        "vertices": [
+            {
+                "x": 489.7060752634424,
+                "y": 98.43003236919463
+            },
+            {
+                "x": 489.7060752634424,
+                "y": 74.2113562332077
+            },
+            {
+                "x": 525.2564255547994,
+                "y": 74.2113562332077
+            },
+            {
+                "x": 514.1469410887503,
+                "y": 98.43003236919463
+            }
+        ],
+        "vertices_m": [
+            {
+                "x": 89.46846954072065,
+                "y": 17.98300000296699
+            },
+            {
+                "x": 89.46846954072065,
+                "y": 13.558288941288883
+            },
+            {
+                "x": 95.96345825511054,
+                "y": 13.558288941288883
+            },
+            {
+                "x": 93.93377428186368,
+                "y": 17.98300000296699
+            }
+        ],
+        "id": "8626e575-b123-4384-9cb4-3d18444ed054",
+        "site_id": "59a01d56-0cf4-4f44-b935-a9ba0acdc97d",
+        "org_id": "d0a6118c-ad8a-4b37-a89b-000e7db4fc60",
+        "created_time": 1691757599,
+        "modified_time": 1691773061,
+        "map_id": "6736bbff-19d5-469b-81f6-c508d110744c",
+        "num_clients": 0,
         "clients_wait": {
             "max": 0,
             "min": 0,
@@ -859,7 +859,7 @@
         "created_time": 1691758913,
         "modified_time": 1691758913,
         "map_id": "6736bbff-19d5-469b-81f6-c508d110744c",
-        "num_clients": 8,
+        "num_clients": 0,
         "clients_wait": {
             "max": 0,
             "min": 0,
@@ -939,7 +939,7 @@
         "created_time": 1691758913,
         "modified_time": 1691758913,
         "map_id": "6736bbff-19d5-469b-81f6-c508d110744c",
-        "num_clients": 12,
+        "num_clients": 0,
         "clients_wait": {
             "max": 0,
             "min": 0,
@@ -1019,7 +1019,7 @@
         "created_time": 1691758913,
         "modified_time": 1691758913,
         "map_id": "6736bbff-19d5-469b-81f6-c508d110744c",
-        "num_clients": 7,
+        "num_clients": 0,
         "clients_wait": {
             "max": 0,
             "min": 0,
@@ -1099,7 +1099,7 @@
         "created_time": 1691758913,
         "modified_time": 1691758913,
         "map_id": "6736bbff-19d5-469b-81f6-c508d110744c",
-        "num_clients": 4,
+        "num_clients": 0,
         "clients_wait": {
             "max": 0,
             "min": 0,
@@ -1179,7 +1179,7 @@
         "created_time": 1691758913,
         "modified_time": 1691758913,
         "map_id": "6736bbff-19d5-469b-81f6-c508d110744c",
-        "num_clients": 5,
+        "num_clients": 0,
         "clients_wait": {
             "max": 0,
             "min": 0,
@@ -1275,7 +1275,7 @@
         "created_time": 1691758913,
         "modified_time": 1691758913,
         "map_id": "6736bbff-19d5-469b-81f6-c508d110744c",
-        "num_clients": 7,
+        "num_clients": 0,
         "clients_wait": {
             "max": 0,
             "min": 0,
@@ -1355,7 +1355,7 @@
         "created_time": 1691758913,
         "modified_time": 1691758913,
         "map_id": "6736bbff-19d5-469b-81f6-c508d110744c",
-        "num_clients": 10,
+        "num_clients": 0,
         "clients_wait": {
             "max": 0,
             "min": 0,
@@ -1435,7 +1435,7 @@
         "created_time": 1691758913,
         "modified_time": 1691758913,
         "map_id": "6736bbff-19d5-469b-81f6-c508d110744c",
-        "num_clients": 6,
+        "num_clients": 0,
         "clients_wait": {
             "max": 0,
             "min": 0,
@@ -1515,7 +1515,7 @@
         "created_time": 1691758913,
         "modified_time": 1691758913,
         "map_id": "6736bbff-19d5-469b-81f6-c508d110744c",
-        "num_clients": 14,
+        "num_clients": 0,
         "clients_wait": {
             "max": 0,
             "min": 0,
@@ -1675,7 +1675,7 @@
         "created_time": 1691758913,
         "modified_time": 1691758913,
         "map_id": "6736bbff-19d5-469b-81f6-c508d110744c",
-        "num_clients": 8,
+        "num_clients": 0,
         "clients_wait": {
             "max": 0,
             "min": 0,
@@ -1755,7 +1755,7 @@
         "created_time": 1691758913,
         "modified_time": 1691758913,
         "map_id": "6736bbff-19d5-469b-81f6-c508d110744c",
-        "num_clients": 10,
+        "num_clients": 0,
         "clients_wait": {
             "max": 0,
             "min": 0,
@@ -1835,7 +1835,7 @@
         "created_time": 1691758913,
         "modified_time": 1691758913,
         "map_id": "6736bbff-19d5-469b-81f6-c508d110744c",
-        "num_clients": 7,
+        "num_clients": 0,
         "clients_wait": {
             "max": 0,
             "min": 0,
@@ -1923,7 +1923,7 @@
         "created_time": 1691758913,
         "modified_time": 1691758913,
         "map_id": "6736bbff-19d5-469b-81f6-c508d110744c",
-        "num_clients": 9,
+        "num_clients": 0,
         "clients_wait": {
             "max": 0,
             "min": 0,
@@ -2003,7 +2003,7 @@
         "created_time": 1691758913,
         "modified_time": 1691758913,
         "map_id": "6736bbff-19d5-469b-81f6-c508d110744c",
-        "num_clients": 11,
+        "num_clients": 0,
         "clients_wait": {
             "max": 0,
             "min": 0,
@@ -2083,7 +2083,7 @@
         "created_time": 1691758913,
         "modified_time": 1691758913,
         "map_id": "6736bbff-19d5-469b-81f6-c508d110744c",
-        "num_clients": 12,
+        "num_clients": 0,
         "clients_wait": {
             "max": 0,
             "min": 0,
@@ -2163,7 +2163,7 @@
         "created_time": 1691758913,
         "modified_time": 1691758913,
         "map_id": "6736bbff-19d5-469b-81f6-c508d110744c",
-        "num_clients": 8,
+        "num_clients": 0,
         "clients_wait": {
             "max": 0,
             "min": 0,
@@ -2243,7 +2243,7 @@
         "created_time": 1691758913,
         "modified_time": 1691758913,
         "map_id": "6736bbff-19d5-469b-81f6-c508d110744c",
-        "num_clients": 10,
+        "num_clients": 0,
         "clients_wait": {
             "max": 0,
             "min": 0,
@@ -2323,7 +2323,7 @@
         "created_time": 1691758913,
         "modified_time": 1691758913,
         "map_id": "6736bbff-19d5-469b-81f6-c508d110744c",
-        "num_clients": 7,
+        "num_clients": 0,
         "clients_wait": {
             "max": 0,
             "min": 0,
@@ -2403,7 +2403,7 @@
         "created_time": 1691758913,
         "modified_time": 1691758913,
         "map_id": "6736bbff-19d5-469b-81f6-c508d110744c",
-        "num_clients": 11,
+        "num_clients": 0,
         "clients_wait": {
             "max": 0,
             "min": 0,
@@ -2483,7 +2483,7 @@
         "created_time": 1691758913,
         "modified_time": 1691758913,
         "map_id": "6736bbff-19d5-469b-81f6-c508d110744c",
-        "num_clients": 9,
+        "num_clients": 0,
         "clients_wait": {
             "max": 0,
             "min": 0,
@@ -2563,7 +2563,7 @@
         "created_time": 1691758913,
         "modified_time": 1691758913,
         "map_id": "6736bbff-19d5-469b-81f6-c508d110744c",
-        "num_clients": 7,
+        "num_clients": 0,
         "clients_wait": {
             "max": 0,
             "min": 0,
@@ -2651,7 +2651,7 @@
         "created_time": 1691758913,
         "modified_time": 1691758913,
         "map_id": "6736bbff-19d5-469b-81f6-c508d110744c",
-        "num_clients": 11,
+        "num_clients": 0,
         "clients_wait": {
             "max": 0,
             "min": 0,
@@ -2731,7 +2731,7 @@
         "created_time": 1691758913,
         "modified_time": 1691758913,
         "map_id": "6736bbff-19d5-469b-81f6-c508d110744c",
-        "num_clients": 7,
+        "num_clients": 0,
         "clients_wait": {
             "max": 0,
             "min": 0,
@@ -2811,7 +2811,7 @@
         "created_time": 1691758913,
         "modified_time": 1691758913,
         "map_id": "6736bbff-19d5-469b-81f6-c508d110744c",
-        "num_clients": 6,
+        "num_clients": 0,
         "clients_wait": {
             "max": 0,
             "min": 0,
@@ -2891,14 +2891,14 @@
         "created_time": 1691758913,
         "modified_time": 1691758913,
         "map_id": "6736bbff-19d5-469b-81f6-c508d110744c",
-        "num_clients": 5,
+        "num_clients": 0,
         "clients_wait": {
             "max": 0,
             "min": 0,
             "avg": 0,
             "p95": 0
         },
-        "num_sdkclients": 12,
+        "num_sdkclients": 0,
         "sdkclients_wait": {
             "max": 0,
             "min": 0,
@@ -2979,7 +2979,7 @@
         "created_time": 1691758913,
         "modified_time": 1691758913,
         "map_id": "6736bbff-19d5-469b-81f6-c508d110744c",
-        "num_clients": 9,
+        "num_clients": 0,
         "clients_wait": {
             "max": 0,
             "min": 0,
@@ -3059,7 +3059,7 @@
         "created_time": 1691758913,
         "modified_time": 1691758913,
         "map_id": "6736bbff-19d5-469b-81f6-c508d110744c",
-        "num_clients": 6,
+        "num_clients": 0,
         "clients_wait": {
             "max": 0,
             "min": 0,
@@ -3139,7 +3139,7 @@
         "created_time": 1691758913,
         "modified_time": 1691758913,
         "map_id": "6736bbff-19d5-469b-81f6-c508d110744c",
-        "num_clients": 6,
+        "num_clients": 0,
         "clients_wait": {
             "max": 0,
             "min": 0,
@@ -3219,7 +3219,7 @@
         "created_time": 1691758913,
         "modified_time": 1691758913,
         "map_id": "6736bbff-19d5-469b-81f6-c508d110744c",
-        "num_clients": 5,
+        "num_clients": 0,
         "clients_wait": {
             "max": 0,
             "min": 0,
@@ -3299,7 +3299,7 @@
         "created_time": 1691758913,
         "modified_time": 1691758913,
         "map_id": "6736bbff-19d5-469b-81f6-c508d110744c",
-        "num_clients": 8,
+        "num_clients": 0,
         "clients_wait": {
             "max": 0,
             "min": 0,
@@ -3395,7 +3395,7 @@
         "created_time": 1691758913,
         "modified_time": 1691758913,
         "map_id": "6736bbff-19d5-469b-81f6-c508d110744c",
-        "num_clients": 10,
+        "num_clients": 0,
         "clients_wait": {
             "max": 0,
             "min": 0,
@@ -3475,7 +3475,7 @@
         "created_time": 1691758913,
         "modified_time": 1691758913,
         "map_id": "6736bbff-19d5-469b-81f6-c508d110744c",
-        "num_clients": 8,
+        "num_clients": 0,
         "clients_wait": {
             "max": 0,
             "min": 0,
@@ -3579,7 +3579,7 @@
         "created_time": 1691758913,
         "modified_time": 1691758913,
         "map_id": "6736bbff-19d5-469b-81f6-c508d110744c",
-        "num_clients": 6,
+        "num_clients": 0,
         "clients_wait": {
             "max": 0,
             "min": 0,
@@ -3683,7 +3683,7 @@
         "created_time": 1691758913,
         "modified_time": 1691758913,
         "map_id": "6736bbff-19d5-469b-81f6-c508d110744c",
-        "num_clients": 7,
+        "num_clients": 0,
         "clients_wait": {
             "max": 0,
             "min": 0,
@@ -3875,111 +3875,7 @@
         "created_time": 1691759178,
         "modified_time": 1691759178,
         "map_id": "6736bbff-19d5-469b-81f6-c508d110744c",
-        "num_clients": 6,
-        "clients_wait": {
-            "max": 0,
-            "min": 0,
-            "avg": 0,
-            "p95": 0
-        },
-        "num_sdkclients": 0,
-        "sdkclients_wait": {
-            "max": 0,
-            "min": 0,
-            "avg": 0,
-            "p95": 0
-        },
-        "num_assets": 0,
-        "assets_wait": {
-            "max": 0,
-            "min": 0,
-            "avg": 0,
-            "p95": 0
-        },
-        "num_unconnected_clients": 0,
-        "unconnected_clients_wait": {
-            "max": 0,
-            "min": 0,
-            "avg": 0,
-            "p95": 0
-        },
-        "num_discovered_assets": 0,
-        "discovered_assets_wait": {
-            "max": 0,
-            "min": 0,
-            "avg": 0,
-            "p95": 0
-        }
-    },
-    {
-        "name": "",
-        "vertices": [
-            {
-                "x": 191.8547411037275,
-                "y": 296.5027817057607
-            },
-            {
-                "x": 175.8668460117502,
-                "y": 291.4157241764952
-            },
-            {
-                "x": 159.15222841559213,
-                "y": 292.86916918485673
-            },
-            {
-                "x": 142.43761081943404,
-                "y": 278.33471910124103
-            },
-            {
-                "x": 127.90316073581833,
-                "y": 258.71321148835983
-            },
-            {
-                "x": 197.6685211371738,
-                "y": 196.941798632993
-            },
-            {
-                "x": 242.7253163963825,
-                "y": 249.9925414381904
-            }
-        ],
-        "vertices_m": [
-            {
-                "x": 35.05153586556513,
-                "y": 54.17055542860066
-            },
-            {
-                "x": 32.130574543434705,
-                "y": 53.24115864428643
-            },
-            {
-                "x": 29.07684225211653,
-                "y": 53.50670058266192
-            },
-            {
-                "x": 26.023109960798354,
-                "y": 50.85128119890699
-            },
-            {
-                "x": 23.367690577043422,
-                "y": 47.266465030837836
-            },
-            {
-                "x": 36.11370361906711,
-                "y": 35.98093264987936
-            },
-            {
-                "x": 44.3455037087074,
-                "y": 45.67321340058487
-            }
-        ],
-        "id": "5c19440f-4074-44da-a1d4-f112b0483736",
-        "site_id": "59a01d56-0cf4-4f44-b935-a9ba0acdc97d",
-        "org_id": "d0a6118c-ad8a-4b37-a89b-000e7db4fc60",
-        "created_time": 1691759871,
-        "modified_time": 1691759871,
-        "map_id": "6736bbff-19d5-469b-81f6-c508d110744c",
-        "num_clients": 4,
+        "num_clients": 0,
         "clients_wait": {
             "max": 0,
             "min": 0,
@@ -4083,7 +3979,7 @@
         "created_time": 1691757599,
         "modified_time": 1691759871,
         "map_id": "6736bbff-19d5-469b-81f6-c508d110744c",
-        "num_clients": 8,
+        "num_clients": 0,
         "clients_wait": {
             "max": 0,
             "min": 0,
@@ -4120,7 +4016,7 @@
         }
     },
     {
-        "name": "Adidas",
+        "name": "Cinaplexx",
         "vertices": [
             {
                 "x": 368.2577287101344,
@@ -4161,9 +4057,9 @@
         "site_id": "59a01d56-0cf4-4f44-b935-a9ba0acdc97d",
         "org_id": "d0a6118c-ad8a-4b37-a89b-000e7db4fc60",
         "created_time": 1691757599,
-        "modified_time": 1691759871,
+        "modified_time": 1691773061,
         "map_id": "6736bbff-19d5-469b-81f6-c508d110744c",
-        "num_clients": 5,
+        "num_clients": 0,
         "clients_wait": {
             "max": 0,
             "min": 0,
@@ -4200,7 +4096,7 @@
         }
     },
     {
-        "name": "",
+        "name": "Restaurant",
         "vertices": [
             {
                 "x": 261.92331294781366,
@@ -4241,9 +4137,817 @@
         "site_id": "59a01d56-0cf4-4f44-b935-a9ba0acdc97d",
         "org_id": "d0a6118c-ad8a-4b37-a89b-000e7db4fc60",
         "created_time": 1691759871,
-        "modified_time": 1691759871,
+        "modified_time": 1691773061,
         "map_id": "6736bbff-19d5-469b-81f6-c508d110744c",
-        "num_clients": 3,
+        "num_clients": 0,
+        "clients_wait": {
+            "max": 0,
+            "min": 0,
+            "avg": 0,
+            "p95": 0
+        },
+        "num_sdkclients": 0,
+        "sdkclients_wait": {
+            "max": 0,
+            "min": 0,
+            "avg": 0,
+            "p95": 0
+        },
+        "num_assets": 0,
+        "assets_wait": {
+            "max": 0,
+            "min": 0,
+            "avg": 0,
+            "p95": 0
+        },
+        "num_unconnected_clients": 0,
+        "unconnected_clients_wait": {
+            "max": 0,
+            "min": 0,
+            "avg": 0,
+            "p95": 0
+        },
+        "num_discovered_assets": 0,
+        "discovered_assets_wait": {
+            "max": 0,
+            "min": 0,
+            "avg": 0,
+            "p95": 0
+        }
+    },
+    {
+        "name": "McDonalds",
+        "vertices": [
+            {
+                "x": 191.8547411037275,
+                "y": 296.5027817057607
+            },
+            {
+                "x": 175.8668460117502,
+                "y": 291.4157241764952
+            },
+            {
+                "x": 159.15222841559213,
+                "y": 292.86916918485673
+            },
+            {
+                "x": 142.43761081943404,
+                "y": 278.33471910124103
+            },
+            {
+                "x": 127.90316073581833,
+                "y": 258.71321148835983
+            },
+            {
+                "x": 197.6685211371738,
+                "y": 196.941798632993
+            },
+            {
+                "x": 242.7253163963825,
+                "y": 249.9925414381904
+            }
+        ],
+        "vertices_m": [
+            {
+                "x": 35.05153586556513,
+                "y": 54.17055542860066
+            },
+            {
+                "x": 32.130574543434705,
+                "y": 53.24115864428643
+            },
+            {
+                "x": 29.07684225211653,
+                "y": 53.50670058266192
+            },
+            {
+                "x": 26.023109960798354,
+                "y": 50.85128119890699
+            },
+            {
+                "x": 23.367690577043422,
+                "y": 47.266465030837836
+            },
+            {
+                "x": 36.11370361906711,
+                "y": 35.98093264987936
+            },
+            {
+                "x": 44.3455037087074,
+                "y": 45.67321340058487
+            }
+        ],
+        "id": "5c19440f-4074-44da-a1d4-f112b0483736",
+        "site_id": "59a01d56-0cf4-4f44-b935-a9ba0acdc97d",
+        "org_id": "d0a6118c-ad8a-4b37-a89b-000e7db4fc60",
+        "created_time": 1691759871,
+        "modified_time": 1691773061,
+        "map_id": "6736bbff-19d5-469b-81f6-c508d110744c",
+        "num_clients": 0,
+        "clients_wait": {
+            "max": 0,
+            "min": 0,
+            "avg": 0,
+            "p95": 0
+        },
+        "num_sdkclients": 0,
+        "sdkclients_wait": {
+            "max": 0,
+            "min": 0,
+            "avg": 0,
+            "p95": 0
+        },
+        "num_assets": 0,
+        "assets_wait": {
+            "max": 0,
+            "min": 0,
+            "avg": 0,
+            "p95": 0
+        },
+        "num_unconnected_clients": 0,
+        "unconnected_clients_wait": {
+            "max": 0,
+            "min": 0,
+            "avg": 0,
+            "p95": 0
+        },
+        "num_discovered_assets": 0,
+        "discovered_assets_wait": {
+            "max": 0,
+            "min": 0,
+            "avg": 0,
+            "p95": 0
+        }
+    },
+    {
+        "name": "Cinaplexx",
+        "vertices": [
+            {
+                "x": 88.50168506814225,
+                "y": 389.4074142998259
+            },
+            {
+                "x": 0.5363738488978319,
+                "y": 292.8601214982162
+            },
+            {
+                "x": 0.5363738488978319,
+                "y": 276.2325321823834
+            },
+            {
+                "x": 70.91748771885085,
+                "y": 212.40820350743192
+            },
+            {
+                "x": 96.58199272630792,
+                "y": 240.17744222944296
+            },
+            {
+                "x": 82.60157273026611,
+                "y": 252.09570898198098
+            },
+            {
+                "x": 80.45607733467477,
+                "y": 275.15978448458776
+            },
+            {
+                "x": 123.90235909539916,
+                "y": 322.8970570364948
+            },
+            {
+                "x": 120.14774215311434,
+                "y": 340.0610202012254
+            },
+            {
+                "x": 123.36598524650132,
+                "y": 355.0794879703647
+            }
+        ],
+        "vertices_m": [
+            {
+                "x": 16.169107786873806,
+                "y": 71.14407426224474
+            },
+            {
+                "x": 0.09799459264772005,
+                "y": 53.50504758565514
+            },
+            {
+                "x": 0.09799459264772005,
+                "y": 50.46721521357582
+            },
+            {
+                "x": 12.956504749231762,
+                "y": 38.8066185935728
+            },
+            {
+                "x": 17.645366293990218,
+                "y": 43.88001141891747
+            },
+            {
+                "x": 15.091167267748887,
+                "y": 46.05745854442842
+            },
+            {
+                "x": 14.699188897158004,
+                "y": 50.27122602828038
+            },
+            {
+                "x": 22.63675090162333,
+                "y": 58.99274477392746
+            },
+            {
+                "x": 21.950788753089288,
+                "y": 62.12857173865451
+            },
+            {
+                "x": 22.538756308975607,
+                "y": 64.87242033279067
+            }
+        ],
+        "id": "b7147508-528e-4736-93d6-4b6065ee154f",
+        "site_id": "59a01d56-0cf4-4f44-b935-a9ba0acdc97d",
+        "org_id": "d0a6118c-ad8a-4b37-a89b-000e7db4fc60",
+        "created_time": 1691773061,
+        "modified_time": 1691773072,
+        "map_id": "6736bbff-19d5-469b-81f6-c508d110744c",
+        "num_clients": 0,
+        "clients_wait": {
+            "max": 0,
+            "min": 0,
+            "avg": 0,
+            "p95": 0
+        },
+        "num_sdkclients": 0,
+        "sdkclients_wait": {
+            "max": 0,
+            "min": 0,
+            "avg": 0,
+            "p95": 0
+        },
+        "num_assets": 0,
+        "assets_wait": {
+            "max": 0,
+            "min": 0,
+            "avg": 0,
+            "p95": 0
+        },
+        "num_unconnected_clients": 0,
+        "unconnected_clients_wait": {
+            "max": 0,
+            "min": 0,
+            "avg": 0,
+            "p95": 0
+        },
+        "num_discovered_assets": 0,
+        "discovered_assets_wait": {
+            "max": 0,
+            "min": 0,
+            "avg": 0,
+            "p95": 0
+        }
+    },
+    {
+        "name": "Virtual Reality Playground",
+        "vertices": [
+            {
+                "x": 185.58535171864983,
+                "y": 495.0730625326988
+            },
+            {
+                "x": 90.11080661483575,
+                "y": 389.4074142998259
+            },
+            {
+                "x": 122.8296113976035,
+                "y": 358.83410491264954
+            },
+            {
+                "x": 134.09346222445797,
+                "y": 376.53444192627796
+            },
+            {
+                "x": 152.86654693588207,
+                "y": 389.4074142998259
+            },
+            {
+                "x": 185.048977869752,
+                "y": 389.94378814872374
+            },
+            {
+                "x": 237.61361506173952,
+                "y": 446.26304228299614
+            }
+        ],
+        "vertices_m": [
+            {
+                "x": 33.90612905611113,
+                "y": 90.4490090138456
+            },
+            {
+                "x": 16.463091564816967,
+                "y": 71.14407426224474
+            },
+            {
+                "x": 22.440761716327888,
+                "y": 65.55838248132471
+            },
+            {
+                "x": 24.49864816193001,
+                "y": 68.79220403869947
+            },
+            {
+                "x": 27.92845890460021,
+                "y": 71.14407426224474
+            },
+            {
+                "x": 33.80813446346342,
+                "y": 71.24206885489247
+            },
+            {
+                "x": 43.411604542939976,
+                "y": 81.53150108290308
+            }
+        ],
+        "id": "36a83246-152c-41cb-9f98-6e04a62b0f8f",
+        "site_id": "59a01d56-0cf4-4f44-b935-a9ba0acdc97d",
+        "org_id": "d0a6118c-ad8a-4b37-a89b-000e7db4fc60",
+        "created_time": 1691773061,
+        "modified_time": 1691773098,
+        "map_id": "6736bbff-19d5-469b-81f6-c508d110744c",
+        "num_clients": 0,
+        "clients_wait": {
+            "max": 0,
+            "min": 0,
+            "avg": 0,
+            "p95": 0
+        },
+        "num_sdkclients": 0,
+        "sdkclients_wait": {
+            "max": 0,
+            "min": 0,
+            "avg": 0,
+            "p95": 0
+        },
+        "num_assets": 0,
+        "assets_wait": {
+            "max": 0,
+            "min": 0,
+            "avg": 0,
+            "p95": 0
+        },
+        "num_unconnected_clients": 0,
+        "unconnected_clients_wait": {
+            "max": 0,
+            "min": 0,
+            "avg": 0,
+            "p95": 0
+        },
+        "num_discovered_assets": 0,
+        "discovered_assets_wait": {
+            "max": 0,
+            "min": 0,
+            "avg": 0,
+            "p95": 0
+        }
+    },
+    {
+        "name": "Best IceCream",
+        "vertices": [
+            {
+                "x": 212.05408491438962,
+                "y": 524.7957209392089
+            },
+            {
+                "x": 185.3566281805636,
+                "y": 498.0982642053828
+            },
+            {
+                "x": 266.06716729363814,
+                "y": 424.5390116743869
+            },
+            {
+                "x": 291.3836706377584,
+                "y": 453.85676447504255
+            }
+        ],
+        "vertices_m": [
+            {
+                "x": 38.74192172711395,
+                "y": 95.87928830307337
+            },
+            {
+                "x": 33.86434165355644,
+                "y": 91.00170822951586
+            },
+            {
+                "x": 48.610020286129284,
+                "y": 77.56255752882842
+            },
+            {
+                "x": 53.23530251711342,
+                "y": 82.91886125047769
+            }
+        ],
+        "id": "70927990-523f-46b5-b1c2-8bbafa99d24a",
+        "site_id": "59a01d56-0cf4-4f44-b935-a9ba0acdc97d",
+        "org_id": "d0a6118c-ad8a-4b37-a89b-000e7db4fc60",
+        "created_time": 1691773301,
+        "modified_time": 1691773301,
+        "map_id": "6736bbff-19d5-469b-81f6-c508d110744c",
+        "num_clients": 0,
+        "clients_wait": {
+            "max": 0,
+            "min": 0,
+            "avg": 0,
+            "p95": 0
+        },
+        "num_sdkclients": 0,
+        "sdkclients_wait": {
+            "max": 0,
+            "min": 0,
+            "avg": 0,
+            "p95": 0
+        },
+        "num_assets": 0,
+        "assets_wait": {
+            "max": 0,
+            "min": 0,
+            "avg": 0,
+            "p95": 0
+        },
+        "num_unconnected_clients": 0,
+        "unconnected_clients_wait": {
+            "max": 0,
+            "min": 0,
+            "avg": 0,
+            "p95": 0
+        },
+        "num_discovered_assets": 0,
+        "discovered_assets_wait": {
+            "max": 0,
+            "min": 0,
+            "avg": 0,
+            "p95": 0
+        }
+    },
+    {
+        "name": "Coffe 2 Go",
+        "vertices": [
+            {
+                "x": 247.80471819079833,
+                "y": 394.7711527888043
+            },
+            {
+                "x": 217.76778265251974,
+                "y": 358.83410491264954
+            },
+            {
+                "x": 221.52239959480457,
+                "y": 343.81563714351023
+            },
+            {
+                "x": 219.91327804811107,
+                "y": 326.1153001298818
+            },
+            {
+                "x": 273.0142890889964,
+                "y": 280.52352297356606
+            },
+            {
+                "x": 318.60606624531215,
+                "y": 330.9426647699623
+            }
+        ],
+        "vertices_m": [
+            {
+                "x": 45.27350180324666,
+                "y": 72.12402018872196
+            },
+            {
+                "x": 39.78580461497434,
+                "y": 65.55838248132471
+            },
+            {
+                "x": 40.47176676350838,
+                "y": 62.814533887188546
+            },
+            {
+                "x": 40.177782985565216,
+                "y": 59.580712329813785
+            },
+            {
+                "x": 49.8792476576895,
+                "y": 51.25117195475758
+            },
+            {
+                "x": 58.20878803274571,
+                "y": 60.46266366364327
+            }
+        ],
+        "id": "915bed14-c174-47e1-bcda-079cd4c2e8c3",
+        "site_id": "59a01d56-0cf4-4f44-b935-a9ba0acdc97d",
+        "org_id": "d0a6118c-ad8a-4b37-a89b-000e7db4fc60",
+        "created_time": 1691773301,
+        "modified_time": 1691773338,
+        "map_id": "6736bbff-19d5-469b-81f6-c508d110744c",
+        "num_clients": 0,
+        "clients_wait": {
+            "max": 0,
+            "min": 0,
+            "avg": 0,
+            "p95": 0
+        },
+        "num_sdkclients": 0,
+        "sdkclients_wait": {
+            "max": 0,
+            "min": 0,
+            "avg": 0,
+            "p95": 0
+        },
+        "num_assets": 0,
+        "assets_wait": {
+            "max": 0,
+            "min": 0,
+            "avg": 0,
+            "p95": 0
+        },
+        "num_unconnected_clients": 0,
+        "unconnected_clients_wait": {
+            "max": 0,
+            "min": 0,
+            "avg": 0,
+            "p95": 0
+        },
+        "num_discovered_assets": 0,
+        "discovered_assets_wait": {
+            "max": 0,
+            "min": 0,
+            "avg": 0,
+            "p95": 0
+        }
+    },
+    {
+        "name": "Gyros 4 you",
+        "vertices": [
+            {
+                "x": 361.76093368107723,
+                "y": 387.3784543436607
+            },
+            {
+                "x": 338.22050928843294,
+                "y": 360.7223855461076
+            },
+            {
+                "x": 409.1879651780223,
+                "y": 298.40949744793164
+            },
+            {
+                "x": 416.11161941115296,
+                "y": 308.4487960859711
+            },
+            {
+                "x": 394.30210857679134,
+                "y": 329.9121242086762
+            },
+            {
+                "x": 408.8417824663657,
+                "y": 345.4903462332202
+            }
+        ],
+        "vertices_m": [
+            {
+                "x": 66.09310913420136,
+                "y": 70.77338671882423
+            },
+            {
+                "x": 61.792313515899245,
+                "y": 65.90336815104097
+            },
+            {
+                "x": 74.75794736519235,
+                "y": 54.51890916141777
+            },
+            {
+                "x": 76.02288725292826,
+                "y": 56.35307199863483
+            },
+            {
+                "x": 72.03832660656013,
+                "y": 60.27438565061616
+            },
+            {
+                "x": 74.69470037080553,
+                "y": 63.12050039802196
+            }
+        ],
+        "id": "d3b989a3-bae8-4981-adcc-2417e7588d66",
+        "site_id": "59a01d56-0cf4-4f44-b935-a9ba0acdc97d",
+        "org_id": "d0a6118c-ad8a-4b37-a89b-000e7db4fc60",
+        "created_time": 1691773301,
+        "modified_time": 1691773364,
+        "map_id": "6736bbff-19d5-469b-81f6-c508d110744c",
+        "num_clients": 0,
+        "clients_wait": {
+            "max": 0,
+            "min": 0,
+            "avg": 0,
+            "p95": 0
+        },
+        "num_sdkclients": 0,
+        "sdkclients_wait": {
+            "max": 0,
+            "min": 0,
+            "avg": 0,
+            "p95": 0
+        },
+        "num_assets": 0,
+        "assets_wait": {
+            "max": 0,
+            "min": 0,
+            "avg": 0,
+            "p95": 0
+        },
+        "num_unconnected_clients": 0,
+        "unconnected_clients_wait": {
+            "max": 0,
+            "min": 0,
+            "avg": 0,
+            "p95": 0
+        },
+        "num_discovered_assets": 0,
+        "discovered_assets_wait": {
+            "max": 0,
+            "min": 0,
+            "avg": 0,
+            "p95": 0
+        }
+    },
+    {
+        "name": "Kebab",
+        "vertices": [
+            {
+                "x": 325.0655662454847,
+                "y": 422.6890909326271
+            },
+            {
+                "x": 300.1404110062143,
+                "y": 393.26356044182177
+            },
+            {
+                "x": 334.75868217186763,
+                "y": 363.83802995101644
+            },
+            {
+                "x": 360.03002012279455,
+                "y": 390.84028146022604
+            }
+        ],
+        "vertices_m": [
+            {
+                "x": 59.38892772920102,
+                "y": 77.22458014627738
+            },
+            {
+                "x": 54.83514413335175,
+                "y": 71.84858562339974
+            },
+            {
+                "x": 61.1598435720313,
+                "y": 66.47259110052212
+            },
+            {
+                "x": 65.77687416226738,
+                "y": 71.40585666269219
+            }
+        ],
+        "id": "dbfae1b0-9165-4974-a7fc-2ad00a9062a4",
+        "site_id": "59a01d56-0cf4-4f44-b935-a9ba0acdc97d",
+        "org_id": "d0a6118c-ad8a-4b37-a89b-000e7db4fc60",
+        "created_time": 1691773301,
+        "modified_time": 1691773375,
+        "map_id": "6736bbff-19d5-469b-81f6-c508d110744c",
+        "num_clients": 0,
+        "clients_wait": {
+            "max": 0,
+            "min": 0,
+            "avg": 0,
+            "p95": 0
+        },
+        "num_sdkclients": 0,
+        "sdkclients_wait": {
+            "max": 0,
+            "min": 0,
+            "avg": 0,
+            "p95": 0
+        },
+        "num_assets": 0,
+        "assets_wait": {
+            "max": 0,
+            "min": 0,
+            "avg": 0,
+            "p95": 0
+        },
+        "num_unconnected_clients": 0,
+        "unconnected_clients_wait": {
+            "max": 0,
+            "min": 0,
+            "avg": 0,
+            "p95": 0
+        },
+        "num_discovered_assets": 0,
+        "discovered_assets_wait": {
+            "max": 0,
+            "min": 0,
+            "avg": 0,
+            "p95": 0
+        }
+    },
+    {
+        "name": "Bakery & Coffee",
+        "vertices": [
+            {
+                "x": 690.220160838893,
+                "y": 512.4958540893635
+            },
+            {
+                "x": 642.4659842330638,
+                "y": 352.9870580039132
+            },
+            {
+                "x": 717.7895823845264,
+                "y": 352.9870580039132
+            },
+            {
+                "x": 727.1434932660806,
+                "y": 358.40248009323403
+            },
+            {
+                "x": 726.1588710680222,
+                "y": 378.09492405440074
+            },
+            {
+                "x": 687.266294244718,
+                "y": 379.07954625245907
+            },
+            {
+                "x": 686.2816720466597,
+                "y": 423.38754516508413
+            },
+            {
+                "x": 718.7742045825847,
+                "y": 424.37216736314247
+            },
+            {
+                "x": 717.7895823845264,
+                "y": 512.9881651883927
+            }
+        ],
+        "vertices_m": [
+            {
+                "x": 126.10205295734829,
+                "y": 93.6321234868756
+            },
+            {
+                "x": 117.37744586971435,
+                "y": 64.49013692611892
+            },
+            {
+                "x": 131.138939523405,
+                "y": 64.49013692611892
+            },
+            {
+                "x": 132.84788317974568,
+                "y": 65.4795253587372
+            },
+            {
+                "x": 132.66799437381508,
+                "y": 69.07730147734914
+            },
+            {
+                "x": 125.5623865395565,
+                "y": 69.25719028327974
+            },
+            {
+                "x": 125.38249773362591,
+                "y": 77.35218655015659
+            },
+            {
+                "x": 131.3188283293356,
+                "y": 77.53207535608718
+            },
+            {
+                "x": 131.138939523405,
+                "y": 93.7220678898409
+            }
+        ],
+        "id": "84777154-844a-42e4-bc7b-e72aadfb1bce",
+        "site_id": "59a01d56-0cf4-4f44-b935-a9ba0acdc97d",
+        "org_id": "d0a6118c-ad8a-4b37-a89b-000e7db4fc60",
+        "created_time": 1691773301,
+        "modified_time": 1691773443,
+        "map_id": "6736bbff-19d5-469b-81f6-c508d110744c",
+        "num_clients": 0,
         "clients_wait": {
             "max": 0,
             "min": 0,
