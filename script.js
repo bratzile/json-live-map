@@ -12,8 +12,8 @@ function loadJsonData() {
     $.getJSON("./json/visitors.json", function(jsonData) {
         jsonData.forEach(function(place) {
             var x = place.x;
-            var y = mapHeight - place.y; // Apply vertical flip transformation
-            var macAddress = place.mac;
+            var y = mapHeight - place.y; // Apply vertical flip transformation (MIST)
+            var uuid = place.uuid;
 
             
             var xOffset = Math.floor(Math.random() * 3) * 10 - 20;
@@ -31,7 +31,7 @@ function loadJsonData() {
             var coordinates = [y, x];
             var marker = L.marker(coordinates, { icon: markerIcon });
 
-            marker.bindPopup(macAddress);
+            marker.bindPopup(uuid);
 
             marker.addTo(map);
         });
@@ -46,20 +46,17 @@ function fetchDataAndRefresh() {
         }
     });
 
-    loadJsonData(); // Učitajte novi set podataka
+    loadJsonData(); 
 }
 
-// Prvo osvežavanje pri učitavanju stranice
 fetchDataAndRefresh();
-
-// Postavljanje intervala za automatsko osvežavanje prikaza svakih 3 sekunde
 setInterval(fetchDataAndRefresh, 2000);
 
 
 
 $.getJSON("./json/zones.json", function(jsonData) {
     jsonData.forEach(function(entity) {
-        var name = entity.name; // Use the mac address as the name
+        var name = entity.name; // Use the uuid as the name
         var numClients = entity.num_clients;
         var vertices = entity.vertices;
 
