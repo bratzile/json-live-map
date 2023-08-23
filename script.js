@@ -5,87 +5,208 @@ var map = L.map('map', {
 var mapWidth = 1080;
 var mapHeight = 570;
 
-L.imageOverlay('https://www.aeroaccess.de/wp-content/uploads/2023/07/67764a82cfbc2a655.57868060-e1691690532616.png',
-    [[0, 0], [mapHeight, mapWidth]]).addTo(map);
+var overlayOpacity = 1;
 
-function loadJsonData() {
-    $.getJSON("./json/visitors.json", function(jsonData) {
-        jsonData.forEach(function(place) {
+L.imageOverlay('./assets/demofloormap.png',
+    [[0, 0], [mapHeight, mapWidth]], {
+        opacity: overlayOpacity
+    }).addTo(map);
+
+function updatePolygon(polygon, entity) {
+    var name = entity.name;
+    var numClients = entity.num_clients;
+
+    var percentFilled = (numClients / maxClients) * 100;
+    percentFilled = Math.min(percentFilled, 100);
+
+    var fillColor;
+    if (percentFilled > 50) {
+        fillColor = '#FF0000';
+    } else if (percentFilled > 20) {
+        fillColor = '#FFA500';
+    } else if (percentFilled > 5){
+        fillColor = 'rgba(0, 255, 0, 1)';
+    } else {
+        fillColor = 'rgba(0, 0, 255, 1)';
+    }
+
+
+    polygon.setStyle({
+        fillColor: fillColor
+    });
+
+    var tooltipContent = percentFilled.toFixed(0) + "%"; // Promenjeno toFixed(1) u toFixed(0)
+    polygon.unbindTooltip().bindTooltip(tooltipContent, {
+        permanent: true,
+        direction: 'center',
+        className: 'custom-tooltip'
+    });
+
+    var popupContent = "<b>" + name + "</b><br>Total visitors in area: " + numClients;
+    polygon.bindPopup(popupContent);
+}
+
+$.getJSON("./json/api-2.json", function(jsonData) {
+    jsonData.forEach(function(entity) {
+        var vertices = entity.vertices;
+
+        var coordinates = vertices.map(function(vertex) {
+            var flippedX = vertex.x;
+            var flippedY = mapHeight - vertex.y;
+            return [flippedY, flippedX];
+        });
+
+        coordinates.push(coordinates[0]);
+
+var polygon = L.polygon(coordinates, { 
+    color: '#fff', 
+    weight: 3,
+    className: 'custom-polygon' // Dodajte ovu liniju
+}).addTo(map);
+
+
+        setInterval(function() {
+            updatePolygon(polygon, entity);
+        }, 1000);
+    });
+});
+
+function loadJsonData(intervalDelay) {
+    $.getJSON("./json/api-1.json", function(jsonData) {
+        var currentIndex = 0;
+
+        var loadingInterval = setInterval(function () {
+            if (currentIndex >= jsonData.length) {
+                clearInterval(loadingInterval);
+                return;
+            }
+
+            var place = jsonData[currentIndex];
             var x = place.x;
-            var y = mapHeight - place.y; // Apply vertical flip transformation (MIST)
-            var uuid = place.uuid;
+            var y = mapHeight - place.y;
+            var macAddress = place.mac;
 
-            
-            var xOffset = Math.floor(Math.random() * 3) * 10 - 20;
-            var yOffset = Math.floor(Math.random() * 3) * 10 - 20;
+            var xOffset = Math.floor(Math.random() * 3) * 8 - 30;
+            var yOffset = Math.floor(Math.random() * 3) * 5 - 20;
 
             x += xOffset;
             y += yOffset;
 
             var markerIcon = L.icon({
-                iconUrl: 'https://www.aeroaccess.de/wp-content/uploads/2023/08/pin-lokacija-white.png',
-                iconSize: [18, 18],
+                iconUrl: './assets/location.png',
+                iconSize: [30, 30],
                 iconAnchor: [9, 0],
             });
 
             var coordinates = [y, x];
             var marker = L.marker(coordinates, { icon: markerIcon });
 
-            marker.bindPopup(uuid);
+            marker.bindPopup(macAddress);
 
             marker.addTo(map);
-        });
+
+            currentIndex++;
+        }, intervalDelay);
     });
 }
 
 function fetchDataAndRefresh() {
-    // Uklonite sve markere sa mape
     map.eachLayer(function (layer) {
         if (layer instanceof L.Marker) {
             map.removeLayer(layer);
         }
     });
 
-    loadJsonData(); 
+    loadJsonData();
 }
 
 fetchDataAndRefresh();
-setInterval(fetchDataAndRefresh, 2000);
 
+var playButton = document.getElementById("playButton");
+var timeIndicator = document.getElementById("timeIndicator");
 
+var defaultMaxClients = 300;
+var maxClients = defaultMaxClients;
+var interval;
+var playDuration = 15000;
+var currentTime = 0;
 
-$.getJSON("./json/zones.json", function(jsonData) {
-    jsonData.forEach(function(entity) {
-        var name = entity.name; // Use the uuid as the name
-        var numClients = entity.num_clients;
-        var vertices = entity.vertices;
+function startInterval() {
+    interval = setInterval(function () {
+        var simulatedHours = Math.floor(currentTime / 1000);
+        var simulatedTime = 9 + simulatedHours;
+        timeIndicator.textContent = simulatedTime + ":00";
 
-        var coordinates = vertices.map(function(vertex) {
-            // Apply vertical flip transformation to the vertex coordinates
-            var flippedX = vertex.x; // Keep x-coordinate unchanged
-            var flippedY = mapHeight - vertex.y; // Flip along the y-axis
-            return [flippedY, flippedX];
+maxClients = Math.floor(Math.random() * (200 - 80)) + 50;
+
+        // Pomeri markere svake sekunde
+        map.eachLayer(function (layer) {
+            if (layer instanceof L.Marker) {
+                var xOffset = (Math.random() < 0.5 ? -1 : 1) * (Math.floor(Math.random() * 3) * 8 - 50);
+                var yOffset = (Math.random() < 0.5 ? -1 : 1) * (Math.floor(Math.random() * 3) * 10 - 80);
+
+                var newLatLng = layer.getLatLng();
+                newLatLng.lat += yOffset / 8;
+                newLatLng.lng += xOffset / 12;
+
+                layer.setLatLng(newLatLng);
+            }
         });
 
-        // Dodajte prvu tačku na kraj niza kako bismo zatvorili poligon
-        coordinates.push(coordinates[0]);
+        currentTime += 1000;
 
-        var polygon = L.polygon(coordinates, { 
-            color: '#fff', 
-            fillColor: 'rgba(0, 0, 0, 0.9)',
-            weight: 3 // Adjust the weight value as desired
-        }).addTo(map);
+        if (currentTime >= playDuration) {
+            clearInterval(interval);
+            interval = null;
+            playButton.textContent = "PLAY HEATMAP";
+            currentTime = 0;
+            maxClients = defaultMaxClients;
+            timeIndicator.style.width = "0";
+            timeIndicator.textContent = "8:00";
+            fetchDataAndRefresh();
+        }
+        timeIndicator.style.width = (currentTime / playDuration * 100) + "%";
+    }, 1000);
+}
+
+playButton.addEventListener("click", function () {
+    if (!interval) {
+        startInterval();
+        playButton.textContent = "STOP";
         
-        // Kreirajte HTML sadržaj za popup
-        var popupContent = "<b>" + name + "</b><br>";
-        popupContent += "Total visitors in area: " + numClients;
-
-        polygon.bindPopup(popupContent);
-    });
+        // Podesite intervalDelay za funkciju loadJsonData
+        var intervalDelay = playDuration / (jsonData.length + 1); // Prilagodite ovo za željeni efekat
+        loadJsonData(intervalDelay);
+    } else {
+        clearInterval(interval);
+        interval = null;
+        playButton.textContent = "PLAY";
+        currentTime = 0;
+        maxClients = defaultMaxClients;
+        timeIndicator.style.width = "0";
+        timeIndicator.textContent = "8:00";
+        fetchDataAndRefresh();
+    }
 });
 
+setInterval(function () {
+    if (interval) {
+        var percent = (currentTime / playDuration) * 100;
+        updateTooltip(percent);
+        fetchDataAndRefresh();
+    }
+}, 1000);
 
+var pauseButton = document.getElementById("pauseButton");
 
-
-
+pauseButton.addEventListener("click", function () {
+    if (interval) {
+        clearInterval(interval);
+        interval = null;
+        pauseButton.textContent = "RESUME";
+    } else {
+        startInterval();
+        pauseButton.textContent = "PAUSE";
+    }
+});
 
